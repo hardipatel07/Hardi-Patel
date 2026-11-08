@@ -1,1 +1,329 @@
-{"angularObjects":null,"dateCreated":"2026-11-07T 23:42:20.336+0000","versions":[],"name":"Test Notebook","id":null,"paragraphs":[{"result":null,"settings":{"params":{},"forms":null},"dateCreated":"2026-11-07T 23:53:03.964+0000","text":"%sql\nselect * from OMLUSER.IRIS_R","runtimeInfos":null,"title":null,"message":null,"user":null,"config":{"colWidth":12,"editorHide":false,"title":false,"enabled":true},"results":{"msg":[{"data":"Sepal.Length\tSepal.Width\tPetal.Length\tPetal.Width\tSpecies\n5.1\t3.5\t1.4\t0.2\tsetosa\n4.9\t3.0\t1.4\t0.2\tsetosa\n4.7\t3.2\t1.3\t0.2\tsetosa\n4.6\t3.1\t1.5\t0.2\tsetosa\n5.0\t3.6\t1.4\t0.2\tsetosa\n5.4\t3.9\t1.7\t0.4\tsetosa\n4.6\t3.4\t1.4\t0.3\tsetosa\n5.0\t3.4\t1.5\t0.2\tsetosa\n4.4\t2.9\t1.4\t0.2\tsetosa\n4.9\t3.1\t1.5\t0.1\tsetosa\n5.4\t3.7\t1.5\t0.2\tsetosa\n4.8\t3.4\t1.6\t0.2\tsetosa\n4.8\t3.0\t1.4\t0.1\tsetosa\n4.3\t3.0\t1.1\t0.1\tsetosa\n5.8\t4.0\t1.2\t0.2\tsetosa\n5.7\t4.4\t1.5\t0.4\tsetosa\n5.4\t3.9\t1.3\t0.4\tsetosa\n5.1\t3.5\t1.4\t0.3\tsetosa\n5.7\t3.8\t1.7\t0.3\tsetosa\n5.1\t3.8\t1.5\t0.3\tsetosa\n5.4\t3.4\t1.7\t0.2\tsetosa\n5.1\t3.7\t1.5\t0.4\tsetosa\n4.6\t3.6\t1.0\t0.2\tsetosa\n5.1\t3.3\t1.7\t0.5\tsetosa\n4.8\t3.4\t1.9\t0.2\tsetosa\n5.0\t3.0\t1.6\t0.2\tsetosa\n5.0\t3.4\t1.6\t0.4\tsetosa\n5.2\t3.5\t1.5\t0.2\tsetosa\n5.2\t3.4\t1.4\t0.2\tsetosa\n4.7\t3.2\t1.6\t0.2\tsetosa\n4.8\t3.1\t1.6\t0.2\tsetosa\n5.4\t3.4\t1.5\t0.4\tsetosa\n5.2\t4.1\t1.5\t0.1\tsetosa\n5.5\t4.2\t1.4\t0.2\tsetosa\n4.9\t3.1\t1.5\t0.2\tsetosa\n5.0\t3.2\t1.2\t0.2\tsetosa\n5.5\t3.5\t1.3\t0.2\tsetosa\n4.9\t3.6\t1.4\t0.1\tsetosa\n4.4\t3.0\t1.3\t0.2\tsetosa\n5.1\t3.4\t1.5\t0.2\tsetosa\n5.0\t3.5\t1.3\t0.3\tsetosa\n4.5\t2.3\t1.3\t0.3\tsetosa\n4.4\t3.2\t1.3\t0.2\tsetosa\n5.0\t3.5\t1.6\t0.6\tsetosa\n5.1\t3.8\t1.9\t0.4\tsetosa\n4.8\t3.0\t1.4\t0.3\tsetosa\n5.1\t3.8\t1.6\t0.2\tsetosa\n4.6\t3.2\t1.4\t0.2\tsetosa\n5.3\t3.7\t1.5\t0.2\tsetosa\n5.0\t3.3\t1.4\t0.2\tsetosa\n7.0\t3.2\t4.7\t1.4\tversicolor\n6.4\t3.2\t4.5\t1.5\tversicolor\n6.9\t3.1\t4.9\t1.5\tversicolor\n5.5\t2.3\t4.0\t1.3\tversicolor\n6.5\t2.8\t4.6\t1.5\tversicolor\n5.7\t2.8\t4.5\t1.3\tversicolor\n6.3\t3.3\t4.7\t1.6\tversicolor\n4.9\t2.4\t3.3\t1.0\tversicolor\n6.6\t2.9\t4.6\t1.3\tversicolor\n5.2\t2.7\t3.9\t1.4\tversicolor\n5.0\t2.0\t3.5\t1.0\tversicolor\n5.9\t3.0\t4.2\t1.5\tversicolor\n6.0\t2.2\t4.0\t1.0\tversicolor\n6.1\t2.9\t4.7\t1.4\tversicolor\n5.6\t2.9\t3.6\t1.3\tversicolor\n6.7\t3.1\t4.4\t1.4\tversicolor\n5.6\t3.0\t4.5\t1.5\tversicolor\n5.8\t2.7\t4.1\t1.0\tversicolor\n6.2\t2.2\t4.5\t1.5\tversicolor\n5.6\t2.5\t3.9\t1.1\tversicolor\n5.9\t3.2\t4.8\t1.8\tversicolor\n6.1\t2.8\t4.0\t1.3\tversicolor\n6.3\t2.5\t4.9\t1.5\tversicolor\n6.1\t2.8\t4.7\t1.2\tversicolor\n6.4\t2.9\t4.3\t1.3\tversicolor\n6.6\t3.0\t4.4\t1.4\tversicolor\n6.8\t2.8\t4.8\t1.4\tversicolor\n6.7\t3.0\t5.0\t1.7\tversicolor\n6.0\t2.9\t4.5\t1.5\tversicolor\n5.7\t2.6\t3.5\t1.0\tversicolor\n5.5\t2.4\t3.8\t1.1\tversicolor\n5.5\t2.4\t3.7\t1.0\tversicolor\n5.8\t2.7\t3.9\t1.2\tversicolor\n6.0\t2.7\t5.1\t1.6\tversicolor\n5.4\t3.0\t4.5\t1.5\tversicolor\n6.0\t3.4\t4.5\t1.6\tversicolor\n6.7\t3.1\t4.7\t1.5\tversicolor\n6.3\t2.3\t4.4\t1.3\tversicolor\n5.6\t3.0\t4.1\t1.3\tversicolor\n5.5\t2.5\t4.0\t1.3\tversicolor\n5.5\t2.6\t4.4\t1.2\tversicolor\n6.1\t3.0\t4.6\t1.4\tversicolor\n5.8\t2.6\t4.0\t1.2\tversicolor\n5.0\t2.3\t3.3\t1.0\tversicolor\n5.6\t2.7\t4.2\t1.3\tversicolor\n5.7\t3.0\t4.2\t1.2\tversicolor\n5.7\t2.9\t4.2\t1.3\tversicolor\n6.2\t2.9\t4.3\t1.3\tversicolor\n5.1\t2.5\t3.0\t1.1\tversicolor\n5.7\t2.8\t4.1\t1.3\tversicolor\n6.3\t3.3\t6.0\t2.5\tvirginica\n5.8\t2.7\t5.1\t1.9\tvirginica\n7.1\t3.0\t5.9\t2.1\tvirginica\n6.3\t2.9\t5.6\t1.8\tvirginica\n6.5\t3.0\t5.8\t2.2\tvirginica\n7.6\t3.0\t6.6\t2.1\tvirginica\n4.9\t2.5\t4.5\t1.7\tvirginica\n7.3\t2.9\t6.3\t1.8\tvirginica\n6.7\t2.5\t5.8\t1.8\tvirginica\n7.2\t3.6\t6.1\t2.5\tvirginica\n6.5\t3.2\t5.1\t2.0\tvirginica\n6.4\t2.7\t5.3\t1.9\tvirginica\n6.8\t3.0\t5.5\t2.1\tvirginica\n5.7\t2.5\t5.0\t2.0\tvirginica\n5.8\t2.8\t5.1\t2.4\tvirginica\n6.4\t3.2\t5.3\t2.3\tvirginica\n6.5\t3.0\t5.5\t1.8\tvirginica\n7.7\t3.8\t6.7\t2.2\tvirginica\n7.7\t2.6\t6.9\t2.3\tvirginica\n6.0\t2.2\t5.0\t1.5\tvirginica\n6.9\t3.2\t5.7\t2.3\tvirginica\n5.6\t2.8\t4.9\t2.0\tvirginica\n7.7\t2.8\t6.7\t2.0\tvirginica\n6.3\t2.7\t4.9\t1.8\tvirginica\n6.7\t3.3\t5.7\t2.1\tvirginica\n7.2\t3.2\t6.0\t1.8\tvirginica\n6.2\t2.8\t4.8\t1.8\tvirginica\n6.1\t3.0\t4.9\t1.8\tvirginica\n6.4\t2.8\t5.6\t2.1\tvirginica\n7.2\t3.0\t5.8\t1.6\tvirginica\n7.4\t2.8\t6.1\t1.9\tvirginica\n7.9\t3.8\t6.4\t2.0\tvirginica\n6.4\t2.8\t5.6\t2.2\tvirginica\n6.3\t2.8\t5.1\t1.5\tvirginica\n6.1\t2.6\t5.6\t1.4\tvirginica\n7.7\t3.0\t6.1\t2.3\tvirginica\n6.3\t3.4\t5.6\t2.4\tvirginica\n6.4\t3.1\t5.5\t1.8\tvirginica\n6.0\t3.0\t4.8\t1.8\tvirginica\n6.9\t3.1\t5.4\t2.1\tvirginica\n6.7\t3.1\t5.6\t2.4\tvirginica\n6.9\t3.1\t5.1\t2.3\tvirginica\n5.8\t2.7\t5.1\t1.9\tvirginica\n6.8\t3.2\t5.9\t2.3\tvirginica\n6.7\t3.3\t5.7\t2.5\tvirginica\n6.7\t3.0\t5.2\t2.3\tvirginica\n6.3\t2.5\t5.0\t1.9\tvirginica\n6.5\t3.0\t5.2\t2.0\tvirginica\n6.2\t3.4\t5.4\t2.3\tvirginica\n5.9\t3.0\t5.1\t1.8\tvirginica\n","type":"TABLE"}],"code":"SUCCESS","startTime":1794095587914,"interpreter":"sql.medium","endTime":1794095588060},"dateUpdated":"2026-11-08T 00:07:55.906+0000"},{"result":null,"settings":{"params":{},"forms":null},"dateCreated":"2026-11-07T 23:52:40.398+0000","text":"%r\nlibrary(ORE)\n\nif (ore.exists(\"IRIS_R\")) ore.drop(table=\"IRIS_R\")\n\nore.create(iris, table = \"IRIS_R\", overwrite=TRUE)\n\nore.exec(\"ANALYZE TABLE IRIS_R COMPUTE STATISTICS\")\n\nz.show(cat(\"Shape:\", dim(IRIS_R)))","runtimeInfos":null,"title":null,"message":null,"user":null,"config":{"colWidth":12,"editorHide":false,"title":false,"enabled":true},"results":{"msg":[{"data":"Shape: 150 5","type":"TEXT"}],"code":"SUCCESS","startTime":1794095568476,"interpreter":"r.medium","endTime":1794095569211},"dateUpdated":"2026-11-07T 23:53:03.974+0000"},{"result":null,"settings":{"params":{},"forms":null},"dateCreated":"2026-11-07T 23:50:49.675+0000","text":"%r\nlibrary(ORE)\nlibrary(lattice)\n\noptions(ore.warn.order=FALSE)\n ","runtimeInfos":null,"title":null,"message":null,"user":null,"config":{"colWidth":12,"editorHide":false,"title":false,"enabled":true},"results":{"msg":[],"code":"SUCCESS","startTime":1794095468096,"interpreter":"r.medium","endTime":1794095473255},"dateUpdated":"2026-11-07T 23:53:03.973+0000"},{"result":null,"settings":{"params":{},"forms":null},"dateCreated":"2026-11-07T 23:49:30.166+0000","text":"%python\nimport pandas as pd\nimport oml\nDATA = oml.sync(table = \"SUPPLEMENTARY_DEMOGRAPHICS\", schema = \"SH\")\nz.show(DATA.head())\n ","runtimeInfos":null,"title":null,"message":null,"user":null,"config":{"colWidth":12,"editorHide":false,"title":false,"enabled":true},"results":{"msg":[{"data":"CUST_ID\tEDUCATION\tOCCUPATION\tHOUSEHOLD_SIZE\tYRS_RESIDENCE\tAFFINITY_CARD\tBULK_PACK_DISKETTES\tFLAT_PANEL_MONITOR\tHOME_THEATER_PACKAGE\tBOOKKEEPING_APPLICATION\tPRINTER_SUPPLIES\tY_BOX_GAMES\tOS_DOC_SET_KANJI\tCOMMENTS\n102547\t10th\tOther\t1\t0\t0\t1\t1\t0\t0\t1\t1\t0\tNone\n101050\t10th\tOther\t1\t0\t0\t1\t1\t0\t0\t1\t1\t0\tNone\n100040\t11th\tSales\t1\t0\t0\t1\t1\t0\t0\t1\t1\t0\tNone\n102117\tHS-grad\tFarming\t1\t0\t0\t0\t0\t0\t1\t1\t1\t0\tNone\n101074\t10th\tHandler\t1\t1\t0\t1\t1\t0\t0\t1\t1\t0\tNone\n","type":"TABLE"}],"code":"SUCCESS","startTime":1794095403426,"interpreter":"python.medium","endTime":1794095421091},"dateUpdated":"2026-11-07T 23:53:03.985+0000"},{"result":null,"settings":{"params":{},"forms":null},"dateCreated":"2026-11-07T 23:49:01.965+0000","text":"%script\nCREATE TABLE small_table\n(\nNAME VARCHAR(200),\nID1 INTEGER,\nID2 VARCHAR(200),\nID3 VARCHAR(200),\nID4 VARCHAR(200),\nTEXT VARCHAR(200)\n);\n\nBEGIN\nFOR i IN 1..100 LOOP\nINSERT INTO small_table VALUES ('Name_'||i, i,'ID2_'||i,'ID3_'||i,'ID4_'||i,'TEXT_'||i);\nEND LOOP;\nCOMMIT;\nEND;\n ","runtimeInfos":null,"title":null,"message":null,"user":null,"config":{"colWidth":12,"editorHide":false,"title":false,"enabled":true},"results":{"msg":[{"data":"\nTable SMALL_TABLE created.\n\n\n---------------------------\n\nPL/SQL procedure successfully completed.\n\n\n---------------------------\n","type":"TEXT"}],"code":"SUCCESS","startTime":1794095358634,"interpreter":"script.medium","endTime":1794095360699},"dateUpdated":"2026-11-07T 23:53:03.972+0000"},{"result":null,"settings":{"params":{},"forms":null},"dateCreated":"2026-11-07T 23:45:27.601+0000","text":"%sql\nselect * from SH.COUNTRIES\n ","runtimeInfos":null,"title":null,"message":null,"user":null,"config":{"colWidth":12,"editorHide":false,"title":false,"enabled":true},"results":{"msg":[{"data":"COUNTRY_ID\tCOUNTRY_ISO_CODE\tCOUNTRY_NAME\tCOUNTRY_SUBREGION\tCOUNTRY_SUBREGION_ID\tCOUNTRY_REGION\tCOUNTRY_REGION_ID\tCOUNTRY_TOTAL\tCOUNTRY_TOTAL_ID\tCOUNTRY_NAME_HIST\n52771\tCN\tChina\tAsia\t52793\tAsia\t52802\tWorld total\t52806\t\n52781\tIN\tIndia\tAsia\t52793\tAsia\t52802\tWorld total\t52806\t\n52782\tJP\tJapan\tAsia\t52793\tAsia\t52802\tWorld total\t52806\t\n52783\tMY\tMalaysia\tAsia\t52793\tAsia\t52802\tWorld total\t52806\t\n52769\tSG\tSingapore\tAsia\t52793\tAsia\t52802\tWorld total\t52806\t\n52791\tZA\tSouth Africa\tAfrica\t52792\tAfrica\t52800\tWorld total\t52806\t\n52774\tAU\tAustralia\tAustralia\t52794\tOceania\t52805\tWorld total\t52806\t\n52785\tNZ\tNew Zealand\tAustralia\t52794\tOceania\t52805\tWorld total\t52806\t\n52787\tSA\tSaudi Arabia\tMiddle East\t52796\tMiddle East\t52804\tWorld total\t52806\t\n52786\tPL\tPoland\tEastern Europe\t52795\tEurope\t52803\tWorld total\t52806\t\n52776\tDE\tGermany\tWestern Europe\t52799\tEurope\t52803\tWorld total\t52806\t\n52777\tDK\tDenmark\tWestern Europe\t52799\tEurope\t52803\tWorld total\t52806\t\n52778\tES\tSpain\tWestern Europe\t52799\tEurope\t52803\tWorld total\t52806\t\n52779\tFR\tFrance\tWestern Europe\t52799\tEurope\t52803\tWorld total\t52806\t\n52789\tGB\tUnited Kingdom\tWestern Europe\t52799\tEurope\t52803\tWorld total\t52806\t\n52780\tIE\tIreland\tWestern Europe\t52799\tEurope\t52803\tWorld total\t52806\t\n52770\tIT\tItaly\tWestern Europe\t52799\tEurope\t52803\tWorld total\t52806\t\n52784\tNL\tThe Netherlands\tWestern Europe\t52799\tEurope\t52803\tWorld total\t52806\t\n52788\tTR\tTurkey\tWestern Europe\t52799\tEurope\t52803\tWorld total\t52806\t\n52772\tCA\tCanada\tNorthern America\t52797\tAmericas\t52801\tWorld total\t52806\t\n52790\tUS\tUnited States of America\tNorthern America\t52797\tAmericas\t52801\tWorld total\t52806\t\n52773\tAR\tArgentina\tSouthern America\t52798\tAmericas\t52801\tWorld total\t52806\t\n52775\tBR\tBrazil\tSouthern America\t52798\tAmericas\t52801\tWorld total\t52806\t\n","type":"TABLE"}],"code":"SUCCESS","startTime":1794095152849,"interpreter":"sql.medium","endTime":1794095154890},"dateUpdated":"2026-11-07T 23:53:03.971+0000"},{"result":null,"settings":{"params":{},"forms":null},"dateCreated":"2026-11-07T 23:44:43.476+0000","text":"%md\n# Hello World\n# Hello World\n### Hello World\n ","runtimeInfos":null,"title":null,"message":null,"user":null,"config":{"colWidth":12,"editorHide":false,"title":false,"enabled":true},"results":{"msg":[{"data":"<h1 id=\"hello-world\">Hello World<\/h1>\n<h1 id=\"hello-world-1\">Hello World<\/h1>\n<h3 id=\"hello-world-2\">Hello World<\/h3>\n","type":"HTML"}],"code":"SUCCESS","startTime":1794095101239,"interpreter":"md.medium","endTime":1794095101368},"dateUpdated":"2026-11-07T 23:53:03.983+0000"},{"result":null,"settings":{"params":{},"forms":null},"dateCreated":"2026-11-07T 23:44:16.620+0000","text":"%md\n* Hello World\n* We welcome you\n ","runtimeInfos":null,"title":null,"message":null,"user":null,"config":{"colWidth":12,"editorHide":false,"title":false,"enabled":true},"results":{"msg":[{"data":"<ul>\n<li>Hello World<\/li>\n<li>We welcome you<\/li>\n<\/ul>\n","type":"HTML"}],"code":"SUCCESS","startTime":1794095101548,"interpreter":"md.medium","endTime":1794095101655},"dateUpdated":"2026-11-07T 23:53:03.982+0000"},{"result":null,"settings":{"params":{},"forms":null},"dateCreated":"2026-11-07T 23:42:20.340+0000","text":"%md\n**Hello World**\n  *Hello World*\n  _Hello World_","runtimeInfos":null,"title":null,"message":null,"user":null,"config":{"colWidth":12,"editorHide":false,"title":false,"enabled":true},"results":{"msg":[{"data":"<p><strong>Hello World<\/strong>\n<em>Hello World<\/em>\n<em>Hello World<\/em><\/p>\n","type":"HTML"}],"code":"SUCCESS","startTime":1794095101831,"interpreter":"md.medium","endTime":1794095101947},"dateUpdated":"2026-11-07T 23:53:03.981+0000"}],"config":null,"info":null,"dateUpdated":"2026-11-08T 00:07:55.906+0000"}
+[
+  {
+    "name" : "Test Notebook_1",
+    "id" : null,
+    "config" : null,
+    "info" : null,
+    "angularObjects" : null,
+    "paragraphs" : [
+      {
+        "title" : null,
+        "text" : "%python\n\ndata = [\n    [\"Asia\", \"India\", 800],\n    [\"Asia\", \"China\", 900],\n    [\"Asia\", \"Japan\", 425],\n    [\"Europe\", \"Germany\", 383],\n    [\"Europe\", \"France\", 467],\n    [\"Europe\", \"Italy\", 360],\n    [\"Africa\", \"Nigeria\", 416],\n    [\"Africa\", \"Egypt\", 510],\n    [\"Americas\", \"USA\", 631],\n    [\"Americas\", \"Brazil\", 413]\n]\n\nprint(\"Continent\\tCountry\\tPopulation\")\nfor row in data:\n    print(f\"{row[0]}\\t{row[1]}\\t{row[2]}\")",
+        "message" : null,
+        "user" : null,
+        "dateCreated" : "2026-11-08T 15:14:29.173+0000",
+        "dateUpdated" : "2026-11-08T 15:15:16.744+0000",
+        "settings" : {
+          "params" : { },
+          "forms" : null
+        },
+        "config" : {
+          "colWidth" : 12,
+          "editorHide" : false,
+          "title" : false,
+          "enabled" : true
+        },
+        "results" : {
+          "msg" : [
+            {
+              "data" : "Continent\tCountry\tPopulation\nAsia\tIndia\t800\nAsia\tChina\t900\nAsia\tJapan\t425\nEurope\tGermany\t383\nEurope\tFrance\t467\nEurope\tItaly\t360\nAfrica\tNigeria\t416\nAfrica\tEgypt\t510\nAmericas\tUSA\t631\nAmericas\tBrazil\t413\n",
+              "type" : "TEXT"
+            }
+          ],
+          "code" : "SUCCESS",
+          "startTime" : 1794150902053,
+          "interpreter" : "python.low",
+          "endTime" : 1794150914873
+        },
+        "result" : null,
+        "runtimeInfos" : null
+      },
+      {
+        "title" : null,
+        "text" : "%sql\nselect * from OMLUSER.IRIS_R",
+        "message" : null,
+        "user" : null,
+        "dateCreated" : "2026-11-08T 15:07:22.450+0000",
+        "dateUpdated" : "2026-11-08T 15:14:29.179+0000",
+        "settings" : {
+          "params" : { },
+          "forms" : null
+        },
+        "config" : {
+          "colWidth" : 12,
+          "editorHide" : false,
+          "title" : false,
+          "enabled" : true
+        },
+        "results" : {
+          "msg" : [
+            {
+              "data" : "Sepal.Length\tSepal.Width\tPetal.Length\tPetal.Width\tSpecies\n5.1\t3.5\t1.4\t0.2\tsetosa\n4.9\t3.0\t1.4\t0.2\tsetosa\n4.7\t3.2\t1.3\t0.2\tsetosa\n4.6\t3.1\t1.5\t0.2\tsetosa\n5.0\t3.6\t1.4\t0.2\tsetosa\n5.4\t3.9\t1.7\t0.4\tsetosa\n4.6\t3.4\t1.4\t0.3\tsetosa\n5.0\t3.4\t1.5\t0.2\tsetosa\n4.4\t2.9\t1.4\t0.2\tsetosa\n4.9\t3.1\t1.5\t0.1\tsetosa\n5.4\t3.7\t1.5\t0.2\tsetosa\n4.8\t3.4\t1.6\t0.2\tsetosa\n4.8\t3.0\t1.4\t0.1\tsetosa\n4.3\t3.0\t1.1\t0.1\tsetosa\n5.8\t4.0\t1.2\t0.2\tsetosa\n5.7\t4.4\t1.5\t0.4\tsetosa\n5.4\t3.9\t1.3\t0.4\tsetosa\n5.1\t3.5\t1.4\t0.3\tsetosa\n5.7\t3.8\t1.7\t0.3\tsetosa\n5.1\t3.8\t1.5\t0.3\tsetosa\n5.4\t3.4\t1.7\t0.2\tsetosa\n5.1\t3.7\t1.5\t0.4\tsetosa\n4.6\t3.6\t1.0\t0.2\tsetosa\n5.1\t3.3\t1.7\t0.5\tsetosa\n4.8\t3.4\t1.9\t0.2\tsetosa\n5.0\t3.0\t1.6\t0.2\tsetosa\n5.0\t3.4\t1.6\t0.4\tsetosa\n5.2\t3.5\t1.5\t0.2\tsetosa\n5.2\t3.4\t1.4\t0.2\tsetosa\n4.7\t3.2\t1.6\t0.2\tsetosa\n4.8\t3.1\t1.6\t0.2\tsetosa\n5.4\t3.4\t1.5\t0.4\tsetosa\n5.2\t4.1\t1.5\t0.1\tsetosa\n5.5\t4.2\t1.4\t0.2\tsetosa\n4.9\t3.1\t1.5\t0.2\tsetosa\n5.0\t3.2\t1.2\t0.2\tsetosa\n5.5\t3.5\t1.3\t0.2\tsetosa\n4.9\t3.6\t1.4\t0.1\tsetosa\n4.4\t3.0\t1.3\t0.2\tsetosa\n5.1\t3.4\t1.5\t0.2\tsetosa\n5.0\t3.5\t1.3\t0.3\tsetosa\n4.5\t2.3\t1.3\t0.3\tsetosa\n4.4\t3.2\t1.3\t0.2\tsetosa\n5.0\t3.5\t1.6\t0.6\tsetosa\n5.1\t3.8\t1.9\t0.4\tsetosa\n4.8\t3.0\t1.4\t0.3\tsetosa\n5.1\t3.8\t1.6\t0.2\tsetosa\n4.6\t3.2\t1.4\t0.2\tsetosa\n5.3\t3.7\t1.5\t0.2\tsetosa\n5.0\t3.3\t1.4\t0.2\tsetosa\n7.0\t3.2\t4.7\t1.4\tversicolor\n6.4\t3.2\t4.5\t1.5\tversicolor\n6.9\t3.1\t4.9\t1.5\tversicolor\n5.5\t2.3\t4.0\t1.3\tversicolor\n6.5\t2.8\t4.6\t1.5\tversicolor\n5.7\t2.8\t4.5\t1.3\tversicolor\n6.3\t3.3\t4.7\t1.6\tversicolor\n4.9\t2.4\t3.3\t1.0\tversicolor\n6.6\t2.9\t4.6\t1.3\tversicolor\n5.2\t2.7\t3.9\t1.4\tversicolor\n5.0\t2.0\t3.5\t1.0\tversicolor\n5.9\t3.0\t4.2\t1.5\tversicolor\n6.0\t2.2\t4.0\t1.0\tversicolor\n6.1\t2.9\t4.7\t1.4\tversicolor\n5.6\t2.9\t3.6\t1.3\tversicolor\n6.7\t3.1\t4.4\t1.4\tversicolor\n5.6\t3.0\t4.5\t1.5\tversicolor\n5.8\t2.7\t4.1\t1.0\tversicolor\n6.2\t2.2\t4.5\t1.5\tversicolor\n5.6\t2.5\t3.9\t1.1\tversicolor\n5.9\t3.2\t4.8\t1.8\tversicolor\n6.1\t2.8\t4.0\t1.3\tversicolor\n6.3\t2.5\t4.9\t1.5\tversicolor\n6.1\t2.8\t4.7\t1.2\tversicolor\n6.4\t2.9\t4.3\t1.3\tversicolor\n6.6\t3.0\t4.4\t1.4\tversicolor\n6.8\t2.8\t4.8\t1.4\tversicolor\n6.7\t3.0\t5.0\t1.7\tversicolor\n6.0\t2.9\t4.5\t1.5\tversicolor\n5.7\t2.6\t3.5\t1.0\tversicolor\n5.5\t2.4\t3.8\t1.1\tversicolor\n5.5\t2.4\t3.7\t1.0\tversicolor\n5.8\t2.7\t3.9\t1.2\tversicolor\n6.0\t2.7\t5.1\t1.6\tversicolor\n5.4\t3.0\t4.5\t1.5\tversicolor\n6.0\t3.4\t4.5\t1.6\tversicolor\n6.7\t3.1\t4.7\t1.5\tversicolor\n6.3\t2.3\t4.4\t1.3\tversicolor\n5.6\t3.0\t4.1\t1.3\tversicolor\n5.5\t2.5\t4.0\t1.3\tversicolor\n5.5\t2.6\t4.4\t1.2\tversicolor\n6.1\t3.0\t4.6\t1.4\tversicolor\n5.8\t2.6\t4.0\t1.2\tversicolor\n5.0\t2.3\t3.3\t1.0\tversicolor\n5.6\t2.7\t4.2\t1.3\tversicolor\n5.7\t3.0\t4.2\t1.2\tversicolor\n5.7\t2.9\t4.2\t1.3\tversicolor\n6.2\t2.9\t4.3\t1.3\tversicolor\n5.1\t2.5\t3.0\t1.1\tversicolor\n5.7\t2.8\t4.1\t1.3\tversicolor\n6.3\t3.3\t6.0\t2.5\tvirginica\n5.8\t2.7\t5.1\t1.9\tvirginica\n7.1\t3.0\t5.9\t2.1\tvirginica\n6.3\t2.9\t5.6\t1.8\tvirginica\n6.5\t3.0\t5.8\t2.2\tvirginica\n7.6\t3.0\t6.6\t2.1\tvirginica\n4.9\t2.5\t4.5\t1.7\tvirginica\n7.3\t2.9\t6.3\t1.8\tvirginica\n6.7\t2.5\t5.8\t1.8\tvirginica\n7.2\t3.6\t6.1\t2.5\tvirginica\n6.5\t3.2\t5.1\t2.0\tvirginica\n6.4\t2.7\t5.3\t1.9\tvirginica\n6.8\t3.0\t5.5\t2.1\tvirginica\n5.7\t2.5\t5.0\t2.0\tvirginica\n5.8\t2.8\t5.1\t2.4\tvirginica\n6.4\t3.2\t5.3\t2.3\tvirginica\n6.5\t3.0\t5.5\t1.8\tvirginica\n7.7\t3.8\t6.7\t2.2\tvirginica\n7.7\t2.6\t6.9\t2.3\tvirginica\n6.0\t2.2\t5.0\t1.5\tvirginica\n6.9\t3.2\t5.7\t2.3\tvirginica\n5.6\t2.8\t4.9\t2.0\tvirginica\n7.7\t2.8\t6.7\t2.0\tvirginica\n6.3\t2.7\t4.9\t1.8\tvirginica\n6.7\t3.3\t5.7\t2.1\tvirginica\n7.2\t3.2\t6.0\t1.8\tvirginica\n6.2\t2.8\t4.8\t1.8\tvirginica\n6.1\t3.0\t4.9\t1.8\tvirginica\n6.4\t2.8\t5.6\t2.1\tvirginica\n7.2\t3.0\t5.8\t1.6\tvirginica\n7.4\t2.8\t6.1\t1.9\tvirginica\n7.9\t3.8\t6.4\t2.0\tvirginica\n6.4\t2.8\t5.6\t2.2\tvirginica\n6.3\t2.8\t5.1\t1.5\tvirginica\n6.1\t2.6\t5.6\t1.4\tvirginica\n7.7\t3.0\t6.1\t2.3\tvirginica\n6.3\t3.4\t5.6\t2.4\tvirginica\n6.4\t3.1\t5.5\t1.8\tvirginica\n6.0\t3.0\t4.8\t1.8\tvirginica\n6.9\t3.1\t5.4\t2.1\tvirginica\n6.7\t3.1\t5.6\t2.4\tvirginica\n6.9\t3.1\t5.1\t2.3\tvirginica\n5.8\t2.7\t5.1\t1.9\tvirginica\n6.8\t3.2\t5.9\t2.3\tvirginica\n6.7\t3.3\t5.7\t2.5\tvirginica\n6.7\t3.0\t5.2\t2.3\tvirginica\n6.3\t2.5\t5.0\t1.9\tvirginica\n6.5\t3.0\t5.2\t2.0\tvirginica\n6.2\t3.4\t5.4\t2.3\tvirginica\n5.9\t3.0\t5.1\t1.8\tvirginica\n",
+              "type" : "TABLE"
+            }
+          ],
+          "code" : "SUCCESS",
+          "startTime" : 1794095587914,
+          "interpreter" : "sql.medium",
+          "endTime" : 1794095588060
+        },
+        "result" : null,
+        "runtimeInfos" : null
+      },
+      {
+        "title" : null,
+        "text" : "%r\nlibrary(ORE)\n\nif (ore.exists(\"IRIS_R\")) ore.drop(table=\"IRIS_R\")\n\nore.create(iris, table = \"IRIS_R\", overwrite=TRUE)\n\nore.exec(\"ANALYZE TABLE IRIS_R COMPUTE STATISTICS\")\n\nz.show(cat(\"Shape:\", dim(IRIS_R)))",
+        "message" : null,
+        "user" : null,
+        "dateCreated" : "2026-11-08T 15:07:22.480+0000",
+        "dateUpdated" : "2026-11-08T 15:14:29.181+0000",
+        "settings" : {
+          "params" : { },
+          "forms" : null
+        },
+        "config" : {
+          "colWidth" : 12,
+          "editorHide" : false,
+          "title" : false,
+          "enabled" : true
+        },
+        "results" : {
+          "msg" : [
+            {
+              "data" : "Shape: 150 5",
+              "type" : "TEXT"
+            }
+          ],
+          "code" : "SUCCESS",
+          "startTime" : 1794095568476,
+          "interpreter" : "r.medium",
+          "endTime" : 1794095569211
+        },
+        "result" : null,
+        "runtimeInfos" : null
+      },
+      {
+        "title" : null,
+        "text" : "%r\nlibrary(ORE)\nlibrary(lattice)\n\noptions(ore.warn.order=FALSE)\n ",
+        "message" : null,
+        "user" : null,
+        "dateCreated" : "2026-11-08T 15:07:22.488+0000",
+        "dateUpdated" : "2026-11-08T 15:14:47.326+0000",
+        "settings" : {
+          "params" : { },
+          "forms" : null
+        },
+        "config" : {
+          "colWidth" : 12,
+          "editorHide" : false,
+          "title" : false,
+          "enabled" : true
+        },
+        "results" : {
+          "msg" : [ ],
+          "code" : "SUCCESS",
+          "startTime" : 1794095468096,
+          "interpreter" : "r.medium",
+          "endTime" : 1794095473255
+        },
+        "result" : null,
+        "runtimeInfos" : null
+      },
+      {
+        "title" : null,
+        "text" : "%python\nimport pandas as pd\nimport oml\nDATA = oml.sync(table = \"SUPPLEMENTARY_DEMOGRAPHICS\", schema = \"SH\")\nz.show(DATA.head())\n ",
+        "message" : null,
+        "user" : null,
+        "dateCreated" : "2026-11-08T 15:07:22.495+0000",
+        "dateUpdated" : "2026-11-08T 15:14:29.184+0000",
+        "settings" : {
+          "params" : { },
+          "forms" : null
+        },
+        "config" : {
+          "colWidth" : 12,
+          "editorHide" : false,
+          "title" : false,
+          "enabled" : true
+        },
+        "results" : {
+          "msg" : [
+            {
+              "data" : "CUST_ID\tEDUCATION\tOCCUPATION\tHOUSEHOLD_SIZE\tYRS_RESIDENCE\tAFFINITY_CARD\tBULK_PACK_DISKETTES\tFLAT_PANEL_MONITOR\tHOME_THEATER_PACKAGE\tBOOKKEEPING_APPLICATION\tPRINTER_SUPPLIES\tY_BOX_GAMES\tOS_DOC_SET_KANJI\tCOMMENTS\n102547\t10th\tOther\t1\t0\t0\t1\t1\t0\t0\t1\t1\t0\tNone\n101050\t10th\tOther\t1\t0\t0\t1\t1\t0\t0\t1\t1\t0\tNone\n100040\t11th\tSales\t1\t0\t0\t1\t1\t0\t0\t1\t1\t0\tNone\n102117\tHS-grad\tFarming\t1\t0\t0\t0\t0\t0\t1\t1\t1\t0\tNone\n101074\t10th\tHandler\t1\t1\t0\t1\t1\t0\t0\t1\t1\t0\tNone\n",
+              "type" : "TABLE"
+            }
+          ],
+          "code" : "SUCCESS",
+          "startTime" : 1794095403426,
+          "interpreter" : "python.medium",
+          "endTime" : 1794095421091
+        },
+        "result" : null,
+        "runtimeInfos" : null
+      },
+      {
+        "title" : null,
+        "text" : "%script\nCREATE TABLE small_table\n(\nNAME VARCHAR(200),\nID1 INTEGER,\nID2 VARCHAR(200),\nID3 VARCHAR(200),\nID4 VARCHAR(200),\nTEXT VARCHAR(200)\n);\n\nBEGIN\nFOR i IN 1..100 LOOP\nINSERT INTO small_table VALUES ('Name_'||i, i,'ID2_'||i,'ID3_'||i,'ID4_'||i,'TEXT_'||i);\nEND LOOP;\nCOMMIT;\nEND;\n ",
+        "message" : null,
+        "user" : null,
+        "dateCreated" : "2026-11-08T 15:07:22.502+0000",
+        "dateUpdated" : "2026-11-08T 15:14:29.185+0000",
+        "settings" : {
+          "params" : { },
+          "forms" : null
+        },
+        "config" : {
+          "colWidth" : 12,
+          "editorHide" : false,
+          "title" : false,
+          "enabled" : true
+        },
+        "results" : {
+          "msg" : [
+            {
+              "data" : "\nTable SMALL_TABLE created.\n\n\n---------------------------\n\nPL/SQL procedure successfully completed.\n\n\n---------------------------\n",
+              "type" : "TEXT"
+            }
+          ],
+          "code" : "SUCCESS",
+          "startTime" : 1794095358634,
+          "interpreter" : "script.medium",
+          "endTime" : 1794095360699
+        },
+        "result" : null,
+        "runtimeInfos" : null
+      },
+      {
+        "title" : null,
+        "text" : "%sql\nselect * from SH.COUNTRIES\n ",
+        "message" : null,
+        "user" : null,
+        "dateCreated" : "2026-11-08T 15:07:22.509+0000",
+        "dateUpdated" : "2026-11-08T 15:14:29.187+0000",
+        "settings" : {
+          "params" : { },
+          "forms" : null
+        },
+        "config" : {
+          "colWidth" : 12,
+          "editorHide" : false,
+          "title" : false,
+          "enabled" : true
+        },
+        "results" : {
+          "msg" : [
+            {
+              "data" : "COUNTRY_ID\tCOUNTRY_ISO_CODE\tCOUNTRY_NAME\tCOUNTRY_SUBREGION\tCOUNTRY_SUBREGION_ID\tCOUNTRY_REGION\tCOUNTRY_REGION_ID\tCOUNTRY_TOTAL\tCOUNTRY_TOTAL_ID\tCOUNTRY_NAME_HIST\n52771\tCN\tChina\tAsia\t52793\tAsia\t52802\tWorld total\t52806\t\n52781\tIN\tIndia\tAsia\t52793\tAsia\t52802\tWorld total\t52806\t\n52782\tJP\tJapan\tAsia\t52793\tAsia\t52802\tWorld total\t52806\t\n52783\tMY\tMalaysia\tAsia\t52793\tAsia\t52802\tWorld total\t52806\t\n52769\tSG\tSingapore\tAsia\t52793\tAsia\t52802\tWorld total\t52806\t\n52791\tZA\tSouth Africa\tAfrica\t52792\tAfrica\t52800\tWorld total\t52806\t\n52774\tAU\tAustralia\tAustralia\t52794\tOceania\t52805\tWorld total\t52806\t\n52785\tNZ\tNew Zealand\tAustralia\t52794\tOceania\t52805\tWorld total\t52806\t\n52787\tSA\tSaudi Arabia\tMiddle East\t52796\tMiddle East\t52804\tWorld total\t52806\t\n52786\tPL\tPoland\tEastern Europe\t52795\tEurope\t52803\tWorld total\t52806\t\n52776\tDE\tGermany\tWestern Europe\t52799\tEurope\t52803\tWorld total\t52806\t\n52777\tDK\tDenmark\tWestern Europe\t52799\tEurope\t52803\tWorld total\t52806\t\n52778\tES\tSpain\tWestern Europe\t52799\tEurope\t52803\tWorld total\t52806\t\n52779\tFR\tFrance\tWestern Europe\t52799\tEurope\t52803\tWorld total\t52806\t\n52789\tGB\tUnited Kingdom\tWestern Europe\t52799\tEurope\t52803\tWorld total\t52806\t\n52780\tIE\tIreland\tWestern Europe\t52799\tEurope\t52803\tWorld total\t52806\t\n52770\tIT\tItaly\tWestern Europe\t52799\tEurope\t52803\tWorld total\t52806\t\n52784\tNL\tThe Netherlands\tWestern Europe\t52799\tEurope\t52803\tWorld total\t52806\t\n52788\tTR\tTurkey\tWestern Europe\t52799\tEurope\t52803\tWorld total\t52806\t\n52772\tCA\tCanada\tNorthern America\t52797\tAmericas\t52801\tWorld total\t52806\t\n52790\tUS\tUnited States of America\tNorthern America\t52797\tAmericas\t52801\tWorld total\t52806\t\n52773\tAR\tArgentina\tSouthern America\t52798\tAmericas\t52801\tWorld total\t52806\t\n52775\tBR\tBrazil\tSouthern America\t52798\tAmericas\t52801\tWorld total\t52806\t\n",
+              "type" : "TABLE"
+            }
+          ],
+          "code" : "SUCCESS",
+          "startTime" : 1794095152849,
+          "interpreter" : "sql.medium",
+          "endTime" : 1794095154890
+        },
+        "result" : null,
+        "runtimeInfos" : null
+      },
+      {
+        "title" : null,
+        "text" : "%md\n# Hello World\n# Hello World\n### Hello World\n ",
+        "message" : null,
+        "user" : null,
+        "dateCreated" : "2026-11-08T 15:07:22.516+0000",
+        "dateUpdated" : "2026-11-08T 15:14:29.188+0000",
+        "settings" : {
+          "params" : { },
+          "forms" : null
+        },
+        "config" : {
+          "colWidth" : 12,
+          "editorHide" : false,
+          "title" : false,
+          "enabled" : true
+        },
+        "results" : {
+          "msg" : [
+            {
+              "data" : "<h1 id=\"hello-world\">Hello World</h1>\n<h1 id=\"hello-world-1\">Hello World</h1>\n<h3 id=\"hello-world-2\">Hello World</h3>\n",
+              "type" : "HTML"
+            }
+          ],
+          "code" : "SUCCESS",
+          "startTime" : 1794095101239,
+          "interpreter" : "md.medium",
+          "endTime" : 1794095101368
+        },
+        "result" : null,
+        "runtimeInfos" : null
+      },
+      {
+        "title" : null,
+        "text" : "%md\n* Hello World\n* We welcome you\n ",
+        "message" : null,
+        "user" : null,
+        "dateCreated" : "2026-11-08T 15:07:22.523+0000",
+        "dateUpdated" : "2026-11-08T 15:14:29.190+0000",
+        "settings" : {
+          "params" : { },
+          "forms" : null
+        },
+        "config" : {
+          "colWidth" : 12,
+          "editorHide" : false,
+          "title" : false,
+          "enabled" : true
+        },
+        "results" : {
+          "msg" : [
+            {
+              "data" : "<ul>\n<li>Hello World</li>\n<li>We welcome you</li>\n</ul>\n",
+              "type" : "HTML"
+            }
+          ],
+          "code" : "SUCCESS",
+          "startTime" : 1794095101548,
+          "interpreter" : "md.medium",
+          "endTime" : 1794095101655
+        },
+        "result" : null,
+        "runtimeInfos" : null
+      },
+      {
+        "title" : null,
+        "text" : "%md\n**Hello World**\n  *Hello World*\n  _Hello World_",
+        "message" : null,
+        "user" : null,
+        "dateCreated" : "2026-11-08T 15:07:22.529+0000",
+        "dateUpdated" : "2026-11-08T 15:14:29.191+0000",
+        "settings" : {
+          "params" : { },
+          "forms" : null
+        },
+        "config" : {
+          "colWidth" : 12,
+          "editorHide" : false,
+          "title" : false,
+          "enabled" : true
+        },
+        "results" : {
+          "msg" : [
+            {
+              "data" : "<p><strong>Hello World</strong>\n<em>Hello World</em>\n<em>Hello World</em></p>\n",
+              "type" : "HTML"
+            }
+          ],
+          "code" : "SUCCESS",
+          "startTime" : 1794095101831,
+          "interpreter" : "md.medium",
+          "endTime" : 1794095101947
+        },
+        "result" : null,
+        "runtimeInfos" : null
+      }
+    ],
+    "versions" : [ ],
+    "dateCreated" : "2026-11-08T 15:07:22.447+0000",
+    "dateUpdated" : "2026-11-08T 15:15:16.744+0000"
+  }
+]
